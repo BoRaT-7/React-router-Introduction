@@ -3,7 +3,7 @@ const User = ({ user }) => {
   const { id, name, email, phone } = user;
     const navigate = useNavigate();
   const handleShowdetails = () =>{
-       navigate(`/User/${id}`)
+       navigate(`/user/${id}`)
   }
   return (
     <div style={{ border: "1px solid gray", margin: "10px", padding: "10px"}}>

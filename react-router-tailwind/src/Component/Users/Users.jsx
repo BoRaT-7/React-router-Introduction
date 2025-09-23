@@ -13,6 +13,7 @@ const Users = () => {
         ))}
       </div>
       <h2>This is our users </h2>
+      <h1>we are bangladeshi</h1>
       <div>
         {
           users.map(user => <User key={user.id} user={user}></User>) 
